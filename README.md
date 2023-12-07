@@ -42,10 +42,10 @@ const createSongList = () => {
 
 ## Resposta - 6
 
-A funçãoo cria o elemento html usando document.createElement("ol"). Entra em um loop "for" que se extende pelo tamanho de sua lista de músicas (songs) e cria um elemento <li> para cada música. Cada <li> contém um texto, que é o nome da música sem os últimos 4 caracteres (usando slice(0, -4)). Por fim, cada <li> é anexado à lista ordenada (<ol>).
+A funçãoo cria o elemento html usando document.createElement("ol"). Entra em um loop "for" que se extende pelo tamanho de sua lista de músicas (songs) e cria um elemento ("li") para cada música. Cada ("li") contém um texto, que é o nome da música sem os últimos 4 caracteres (usando slice(0, -4)). Por fim, cada ("li") é anexado à lista ordenada ("ol").
 
 ``` bash
 <ol>
-    <li>Never going to give you up.mp3</li>
+    <"li> Never going to give you up.mp3 </li>
 </ol>
 ``` 
